@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+}
+
+center{
+    background-color: rgb(255, 226, 191);
+    border: 2px solid rgb(255, 226, 191);
+    width: 550px;
+}
+
+.login_space{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome_line{
+    font-size: 35px;
+    font-family: "Playwrite GB S", cursive;
+    margin:50px 0;
+}
+
+.email_line, .password_line{
+    text-align:left;
+    font-size: 20px;
+    padding: 0 10px;
+    font-family: "Oxanium", sans-serif;
+}
+
+.password_line{
+    margin: 10px 0 0 0;
+}
+
+.note{
+    font-size: 10px;
+    margin: 0;
+}
+
+.box{
+    width: 490px;
+    height: 30px;
+    border-radius: 16px;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+.pass_box{
+    width: 482px;
+    height: 24px;
+    border-radius: 16px;
+    border-style: solid;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
